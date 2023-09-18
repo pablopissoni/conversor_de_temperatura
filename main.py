@@ -18,7 +18,7 @@ conversor()
 
 #Funcion para reiniciar la conversion que acepta un parametro (Y) o (N) para volver a ejecutar CONVERSOR o para terminar la app
 def reiniciar ():
-    loop = input("Realizar otra convercion (Y) o (N) ?: ").upper()
+    loop = input("Realizar otra conversion (Y) o (N) ?: ").upper()
     if loop == "Y" : 
         conversor()
         reiniciar()
@@ -33,11 +33,3 @@ reiniciar()
 
 #----------------------------------------------------------------------
 # Conversor de unidad de Farhreinhheit a Celcius
-
-# temp = input("Ingrese la temperatura: ")
-# print(int(temp))
-# unidad = input("Que unidad es --> Centigrados (C) o Farhreinheit (F): ").upper()
-
-
-# if int(temp) != int:
-#     print("Ingrese valores numericos")
